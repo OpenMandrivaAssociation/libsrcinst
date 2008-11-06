@@ -7,13 +7,19 @@
 Summary:	Basic library used by sourceinstall
 Name:		libsrcinst
 Version:	2.5
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 License:	GPLv3+
 Group:		System/Libraries
 Source0:	ftp://ftp.gnu.org/gnu/sourceinstall/%{name}-2.5.tar.gz
 URL:		http://www.gnu.org/software/sourceinstall
 Buildroot:	%{_tmppath}/%{name}-%{version}-root
 BuildRequires:	info-install
+BuildRequires:	zip 
+BuildRequires:	unzip 
+BuildRequires:	bzip2 
+BuildRequires:	ncompress 
+BuildRequires:	gzip 
+BuildRequires:	tar
 
 %description
 Libsrcinst is the basic library used by the sourceinstall application.
