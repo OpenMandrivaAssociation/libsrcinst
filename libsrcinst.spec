@@ -7,7 +7,7 @@
 Summary:	Basic library used by sourceinstall
 Name:		libsrcinst
 Version:	2.5
-Release:	%{mkrel 2}
+Release:	%{mkrel 3}
 License:	GPLv3+
 Group:		System/Libraries
 Source0:	ftp://ftp.gnu.org/gnu/sourceinstall/%{name}-2.5.tar.gz
