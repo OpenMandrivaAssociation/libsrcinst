@@ -75,3 +75,19 @@ PATH=$PATH:/sbin %makeinstall_std
 %{_libdir}/%{name}.so
 %{_libdir}/pkgconfig/%{name}.pc
 %{_mandir}/*/*
+
+
+%changelog
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 2.5-3mdv2010.0
++ Revision: 439445
+- rebuild
+
+* Thu Nov 06 2008 Adam Williamson <awilliamson@mandriva.org> 2.5-2mdv2009.1
++ Revision: 300349
+- add buildrequires for the various compression tools
+
+* Thu Nov 06 2008 Adam Williamson <awilliamson@mandriva.org> 2.5-1mdv2009.1
++ Revision: 300292
+- import libsrcinst
+
+
