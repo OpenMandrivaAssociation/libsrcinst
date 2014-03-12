@@ -12,6 +12,7 @@ License:	GPLv3+
 Group:		System/Libraries
 Url:		http://www.gnu.org/software/sourceinstall
 Source0:	ftp://ftp.gnu.org/gnu/sourceinstall/%{name}-%{version}.tar.gz
+BuildRequires:	install-info
 
 %description
 Libsrcinst is the basic library used by the sourceinstall application.
