@@ -7,7 +7,7 @@
 Summary:	Basic library used by sourceinstall
 Name:		libsrcinst
 Version:	2.5
-Release:	4
+Release:	5
 License:	GPLv3+
 Group:		System/Libraries
 Url:		http://www.gnu.org/software/sourceinstall
