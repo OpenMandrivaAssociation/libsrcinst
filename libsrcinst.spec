@@ -10,7 +10,7 @@ Version:	2.5
 Release:	5
 License:	GPLv3+
 Group:		System/Libraries
-Url:		http://www.gnu.org/software/sourceinstall
+Url:		https://www.gnu.org/software/sourceinstall
 Source0:	ftp://ftp.gnu.org/gnu/sourceinstall/%{name}-%{version}.tar.gz
 BuildRequires:	install-info
 
