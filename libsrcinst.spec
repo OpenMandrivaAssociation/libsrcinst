@@ -12,6 +12,7 @@ License:	GPLv3+
 Group:		System/Libraries
 Url:		https://www.gnu.org/software/sourceinstall
 Source0:	ftp://ftp.gnu.org/gnu/sourceinstall/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	install-info
 
 %description
